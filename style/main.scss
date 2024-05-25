@@ -1,0 +1,170 @@
+body {
+	font-family: sans-serif;
+	text-align: center;	
+}
+
+* {
+	box-sizing: border-box;
+	border: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+label {
+  font-size: 12px;
+  color: #FFFFFF;
+	margin-bottom: 4px;
+}
+
+input:not([type="checkbox"]) {
+	height: 39px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #CBD5E0;
+	background-color: #FFFFFF;
+	padding-left: 16px;
+}
+
+input:focus {
+	outline: unset;
+}
+
+input::placeholder {
+  color: #8C98AA;
+  font-size: 12px;
+}
+
+.container {
+	max-width: 1200px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	height: 100vh;
+	margin-top: 73px;
+	padding-left: 19px;
+	padding-right: 18px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.wrapperInputAndLabel {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	margin-bottom: 20px;
+}
+
+.submit-btn {
+  background: #DCDCDC;
+  color: #013763;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 14px;
+	margin-top: 26px;
+	height: 39px;
+	border-radius: 5px;
+	border: none;
+	width: 323px;
+}
+
+.submit-btn:hover {
+	background: rgba(220, 220, 220, 0.9)
+}
+
+.img-logo {
+	width: 211px; 
+  height: 73px; 
+  object-fit: contain;
+  margin-bottom: 43px;
+}
+
+.link {
+  font-size: 10px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: underline;
+	margin: 0;
+}
+
+.footer-mobile {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+
+  border-top: 1px solid #F1F5F4;
+
+  a {
+    color: white;
+    text-decoration: underline;
+    margin-left: 5px;
+  }
+}
+
+.text-information {
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: 500;
+	margin-bottom: 2.75rem;
+}
+
+.flexBetween {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.welcome-text {
+	font-size: 16px;
+	color: #013763;
+	font-weight: 500;
+
+	strong {
+		font-weight: 700;
+		font-size: 20px;
+	}
+}
+
+.welcome-box {
+	background: #D9D9D926;
+	border-radius: 10px;
+	min-height: 354px;
+	min-width: 354px;
+	padding: 28px;
+	margin-top: 20px;
+}
+
+.footer-mobile-clean {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+	background: #FFF;
+
+  color: #535A67;
+  border-top: 1px solid #535A67;
+}
+
+.img-logo-blue {
+	width: 186px; 
+	height: 65px; 
+	object-fit: contain;
+}
