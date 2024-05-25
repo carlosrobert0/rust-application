@@ -1,3 +1,6 @@
+// pub mod app;
+// pub mod components;
+// pub mod pages;
 #[cfg(feature = "ssr")]
 #[tokio::main]
 async fn main() {
