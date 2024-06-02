@@ -1,0 +1,11 @@
+pub mod land;
+pub mod login;
+pub mod forgot_password;
+pub mod register_new_password;
+pub mod home;
+pub mod revenue;
+pub mod operators;
+pub mod upload;
+pub mod uploads;
+pub mod uploaded;
+pub mod menu;
