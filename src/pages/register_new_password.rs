@@ -1,15 +1,8 @@
 use crate::components::button::*;
 use leptos::*;
-use leptos_router::*;
 
 #[component]
 pub fn RegisterNewPassword() -> impl IntoView {
-    let navigate = use_navigate();
-
-    let navigate_to_login = move || {
-        navigate("/", NavigateOptions::default());
-    };
-
     view! {
         <div class="container">
             <div class="flexColumn">

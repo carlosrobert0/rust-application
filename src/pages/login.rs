@@ -46,7 +46,9 @@ pub fn Login() -> impl IntoView {
                                 Forgot Password?
                             </a>
                         </div>
-                        <Button title=String::from("Sign in") />
+                        <a href="/home" class="link">
+                            <Button title=String::from("Sign in") />
+                        </a>
                     </div>
                 </form>
             </div>

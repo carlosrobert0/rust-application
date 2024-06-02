@@ -3,8 +3,15 @@ use leptos_meta::*;
 use leptos_router::*;
 use crate::pages::login::*;
 use crate::pages::forgot_password::*;
+use crate::pages::menu::*;
 use crate::pages::register_new_password::*;
 use crate::pages::home::*;
+use crate::pages::land::*;
+use crate::pages::revenue::*;
+use crate::pages::operators::*;
+use crate::pages::upload::*;
+use crate::pages::uploads::*;
+use crate::pages::uploaded::*;
 use crate::error_template::*;
 
 #[component]
@@ -14,6 +21,11 @@ pub fn App() -> impl IntoView {
         <Stylesheet id="leptos" href="/pkg/prototype.css"/>
         <Link rel="preload"
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            as_="font"
+            crossorigin="anonymous"
+        />
+        <Link rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap"
             as_="font"
             crossorigin="anonymous"
         />
@@ -41,6 +53,13 @@ pub fn App() -> impl IntoView {
                     <Route path="/forgot-password" view=ForgotPassword/>
                     <Route path="/register-new-password" view=RegisterNewPassword/>
                     <Route path="/home" view=Home/>
+                    <Route path="/land" view=Land/>
+                    <Route path="/revenue" view=Revenue/>
+                    <Route path="/operators" view=Operators/>
+                    <Route path="/upload" view=Upload/>
+                    <Route path="/uploads" view=Uploads/>
+                    <Route path="/uploaded" view=Uploaded/>
+                    <Route path="/menu" view=Menu/>
                 </Routes>
             </main>
         </Router>

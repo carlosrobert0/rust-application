@@ -9,9 +9,11 @@ pub fn Home() -> impl IntoView {
                     class="img-logo-blue"
                     src="/logo-blue.png"
                 />
-                <img
-                    src="/menu.png"
-                />
+                <a href="/menu">
+                    <img
+                        src="/menu.png"
+                    />
+                </a>
             </header>
             <article class="welcome-box">
                 <h1 class="text-left welcome-text">r"Welcome!"<br/><strong>r"Amber Sanders"</strong></h1>
@@ -19,7 +21,7 @@ pub fn Home() -> impl IntoView {
         </div>
 
         <footer class="footer-mobile-clean">
-            <a href="/">
+            <a href="/home">
                 <img src="/home.png" />
             </a>
             <a href="/upload">
